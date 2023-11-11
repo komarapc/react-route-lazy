@@ -1,8 +1,7 @@
 import BodyWrapper from "@/components/BodyWrapper";
-import { lazy } from "react";
+import Counter from "@/components/Counter";
 import { useNavigate } from "react-router-dom";
 
-const Counter = lazy(() => import("@/components/Counter"));
 export default function About() {
   const navigate = useNavigate();
   return (
